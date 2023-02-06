@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="manifest" href="../images/site.webmanifest">
+  <meta name="description" content="About page for Delicious Recipes">
+  <title>About</title>
+  <link rel="stylesheet" href="main.css">
+
+
+</head>
+
+<body>
+
+  <header>
+  </header>
+
+  <main>
+    <h1>Margins vs Padding</h1>
+  </main>
+  <p>The margin property controls the space outside an element, and the padding property controls the space inside an
+    element.</p>
+
+  Margin is the space around an element’s. Padding is the space between an element’s border and the element’s content.
+  <p>Here is some text with no margin or padding. It seems trapped and "has no place to breathe" </p>
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOjEdxz" data-user="martinvillar"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/martinvillar/pen/gOjEdxz">
+        Untitled</a> by Martin (<a href="https://codepen.io/martinvillar">@martinvillar</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <p>When you add margins, the element is seperated from the rest. There is some extra space and we can see how it is
+    its own independent section of the website. Margins are used to create space around elements, outside of any defined
+    borders.</p>
+  <p>You can add this through css with "margin: 10px:"</p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="rNrRZaX" data-user="martinvillar"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/martinvillar/pen/rNrRZaX">
+        Untitled</a> by Martin (<a href="https://codepen.io/martinvillar">@martinvillar</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <p>Padding properties are used to generate space around an element's content, inside of any defined borders. You can
+    also add this by simply adding "padding: 10px" to your css styles. </p>
+  <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="JjBzaLE" data-user="martinvillar"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/martinvillar/pen/JjBzaLE">
+        Untitled</a> by Martin (<a href="https://codepen.io/martinvillar">@martinvillar</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  <p>Sometimes, margins will collapse. This happens on block level elements such as h2 or div. It happens in flow
+    layouts. It only occurs vertically. If you have a bottom margin of 20px and a top margin of 25px, you will not have
+    a margin of 45px, you will end with a 25px margin. The greatest absolute value wins. Margin collapsing also happens
+    when an element is nested inside another element. </p>
+  <P>Margin collapsing can be prevented by applying a padding to either element. </P>
+  <img src="images/collapse.jpg" alt="example of collapsing">
+</body>
+
+</html>
